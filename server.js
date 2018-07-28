@@ -6,9 +6,9 @@ var path = require("path");
 
 var app = express();
 
-var PORT = process.env.PORT || 8080;
+var PORT = process.env.PORT || 3020;
 
-// For serving of static CSS
+// For CSS
 app.use(express.static(__dirname + "/app/css"));
 
 app.use(bodyParser.json());
