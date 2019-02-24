@@ -35,12 +35,12 @@ TO use the app visit the home page with the link that is provided below to be pa
 - Our 2 routing files (`htmlRoutes.js` and `apiRoutes.js`) determine the back-end logic (based on the request being made, the response that gets sent to the browser); the HTML routes display the survey and the homepage based on the URL that is accessed, and the API routes send back existing content in our server-side data or add new friends
 - Best match is calculated by finding the friend with the minimal difference in scores and then sending that friend to the browser as a JSON object
 - A modal is then toggled, displaying the the best match to the person who just took the survey
-- In essense, this will also be a form of notes that you may later reference weeks later
 - Friends are stored as such:
 
 ```js
 {
-		name: "Travis",
-		photo: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRinEZvZsKJ5yuTsD1ug6Hq5OEwYkv-sQjCNsOTwaNrx0_B-VDy6g",
-		scores: [2, 5, 4, 1, 2, 3, 3, 2, 3, 3]
+		name: "Joey",
+		photo: "app/img/joey.jpg",
+		scores: [2, 1, 3, 5, 2, 3, 3, 2, 5, 3]
 }
+```
