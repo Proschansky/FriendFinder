@@ -9,7 +9,8 @@ var app = express();
 var PORT = process.env.PORT || 8080;
 
 //  static CSS
-app.use(express.static(__dirname + "/app/css"));
+// app.use(express.static(__dirname + "/app/css"));
+app.use(express.static("app"));
 
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: true }));
